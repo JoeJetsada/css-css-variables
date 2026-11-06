@@ -3,5 +3,17 @@
   padding: 0;
   margin: 0;
 }
+:root {
+  --secondary-color:cornsilk;
+  --branding-color:#ff7f50;
+  --level-5:15px;
+  --triple-extra-large:100px;
+}
+.introduction{
+  background-color: var(--secondary-color);
 
-/* Start coding here */
+}
+h1{
+  color: var(--branding-color);
+  font-size: var(--triple-extra-large);
+}
